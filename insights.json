@@ -1,0 +1,127 @@
+{
+  "rows_total": 10000,
+  "return_rate_total": 0.5052,
+  "auc": 1.0,
+  "top_positive_features": [
+    [
+      "cat__Return_Status_Returned",
+      7.64048384516673
+    ],
+    [
+      "cat__Product_Category_Clothing",
+      0.0907161649238004
+    ],
+    [
+      "cat__Payment_Method_Gift Card",
+      0.05014173621133033
+    ],
+    [
+      "cat__Product_Category_Electronics",
+      0.04831903933601867
+    ],
+    [
+      "cat__Payment_Method_Debit Card",
+      0.04547790640383299
+    ],
+    [
+      "cat__Shipping_Method_Next-Day",
+      0.042879474088445516
+    ],
+    [
+      "cat__User_Location_City38",
+      0.036447913683644015
+    ],
+    [
+      "cat__User_Location_City68",
+      0.03500411846395058
+    ],
+    [
+      "cat__User_Location_City44",
+      0.031717405694579544
+    ],
+    [
+      "cat__User_Location_City39",
+      0.030454994688054723
+    ],
+    [
+      "cat__User_Location_City71",
+      0.029754501713362937
+    ],
+    [
+      "cat__User_Location_City74",
+      0.028469823194579268
+    ],
+    [
+      "cat__User_Location_City87",
+      0.027880296049411148
+    ],
+    [
+      "cat__User_Location_City7",
+      0.027694451057892533
+    ],
+    [
+      "cat__Payment_Method_Credit Card",
+      0.02591168606066561
+    ],
+    [
+      "cat__User_Location_City19",
+      0.02426007415660991
+    ],
+    [
+      "cat__User_Location_City15",
+      0.023510663849531384
+    ],
+    [
+      "cat__User_Location_City24",
+      0.023353258629651878
+    ],
+    [
+      "num__Discount_Applied",
+      0.022337320006872163
+    ],
+    [
+      "cat__User_Location_City61",
+      0.0222906802975472
+    ]
+  ],
+  "by_category": {
+    "Clothing": 0.5245,
+    "Electronics": 0.5093,
+    "Books": 0.5066,
+    "Toys": 0.4954,
+    "Home": 0.4901
+  },
+  "by_payment": {
+    "Gift Card": 0.516,
+    "Debit Card": 0.5112,
+    "Credit Card": 0.5051,
+    "PayPal": 0.4883
+  },
+  "by_shipping": {
+    "Next-Day": 0.5109,
+    "Standard": 0.5052,
+    "Express": 0.4994
+  },
+  "by_location": {
+    "City68": 0.6211,
+    "City71": 0.6176,
+    "City87": 0.6111,
+    "City10": 0.598,
+    "City19": 0.5876,
+    "City39": 0.5865,
+    "City15": 0.578,
+    "City74": 0.5729,
+    "City7": 0.57,
+    "City44": 0.5631,
+    "City58": 0.5588,
+    "City84": 0.5556,
+    "City24": 0.5556,
+    "City85": 0.5545,
+    "City95": 0.5542,
+    "City43": 0.5526,
+    "City75": 0.5495,
+    "City38": 0.549,
+    "City9": 0.5465,
+    "City66": 0.5437
+  }
+}

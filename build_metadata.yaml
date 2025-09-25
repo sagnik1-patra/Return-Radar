@@ -1,0 +1,40 @@
+input_csv: C:\Users\NXTWAVE\Downloads\Return Radar\archive\ecommerce_returns_synthetic_data.csv
+shape:
+- 10000
+- 21
+target_from:
+- Return_Status
+- Return_Date (fallback)
+dropped_leak_columns:
+- Return_Date
+- Return_Reason
+- Days_to_Return
+id_column: Order_ID
+numeric_cols:
+- Product_Price
+- Order_Quantity
+- User_Age
+- Discount_Applied
+- Order_Year
+- Order_Month
+- Order_DOW
+- Order_Hour
+categorical_cols:
+- Product_ID
+- User_ID
+- Product_Category
+- Return_Status
+- User_Gender
+- User_Location
+- Payment_Method
+- Shipping_Method
+model: OneHot(dense) + LogisticRegression(class_weight=balanced, C=4.0, max_iter=500)
+metrics:
+  accuracy: 1.0
+  precision_pos: 1.0
+  recall_pos: 1.0
+  f1_pos: 1.0
+  precision_neg: 1.0
+  recall_neg: 1.0
+  f1_neg: 1.0
+  auc: 1.0
